@@ -1,19 +1,19 @@
 ## Program Information
 
-**Organization:** PrimeTek Africa - Codecamp Academy  
+**Organization:** PrimeTek Africa - Codecamp Academy
 
-**Program:** Advanced Full-Stack Software Development  
+**Program:** Advanced Full-Stack Software Development
 
-**Module:** Programming Foundations  
+**Module:** Programming Foundations
 
-**Instructor:** Cristian Camilo Cortes Ortiz  
+**Instructor:** Cristian Camilo Cortes Ortiz
 
-**Instructor Role:** Systems Engineer & Full-Stack Software Development Instructor  
+**Instructor Role:** Systems Engineer & Full-Stack Software Development Instructor
 
-This repository contains the official learning materials used during  
-**Module of the Advanced Full-Stack Software Development program at Codecamp Academy**.  
-It serves as a centralized collection where students can access programming 
-challenges used throughout the course.
+This repository contains the official learning materials used during the
+**Advanced Full-Stack Software Development program at Codecamp Academy**.
+It serves as a centralized collection where students can access programming
+challenges, exercises, and reference implementations used throughout the course.
 
 The repository includes structured learning content covering:
 
@@ -25,17 +25,19 @@ The repository includes structured learning content covering:
 - Vue.js development
 - Bootstrap CSS styles
 - Tailwind CSS styles
-- Relational databases
+- Relational databases (SQL / PostgreSQL)
+- NoSQL databases (MongoDB)
+- API development with Node.js (Sequelize ORM + PostgreSQL)
 
-Each section is designed to progressively build students' understanding of
-modern software development concepts, from foundational programming logic to
-advanced frontend frameworks.
+Each module is designed to progressively build students' understanding of
+modern software development concepts, from foundational programming logic
+to full-stack application architecture.
 
 ---
 
 ## Instructor
 
-**Cristian Camilo**  
+**Cristian Camilo**
 
 Systems Engineer specializing in **Full-Stack Web Development**, with professional
 experience building scalable web applications, RESTful APIs, and backend systems
@@ -48,6 +50,7 @@ in:
 - Clean code and software architecture principles
 - Frontend and backend development workflows
 - Real-world application development
+- Database design and data modeling
 - Professional development practices using Git and GitHub
 
 This repository is maintained to provide students with:
@@ -62,51 +65,94 @@ This repository is maintained to provide students with:
 
 ## Repository Structure
 
-This repository is organized into multiple learning modules:
+This repository is organized into eleven learning modules:
 
-- HTML & CSS `Challenges`
-- Imperative Programming `Challenges`
-- Object-Oriented Programming (OOP) `Challenges`
-- Event-Driven Programming `Challenges`
-- React.js `Challenges`
-- Vue.js `Challenges`
-- Bootstrap `Challenges`
-- TailwindCSS `Challenges`
-- Relational databases `Challenges`
+### 01 — HTML & CSS
+Foundational web structure and styling:
+- Semantic HTML, forms, tables, multimedia
+- CSS selectors, box model, Flexbox, CSS Grid
+- Responsive design with media queries
+- CSS variables, hover effects, transitions, animations
+- Complete landing pages, galleries, and dashboards
 
-Each module contains practical exercises designed to simulate real-world
-software development scenarios.
+### 02 — Imperative Programming
+Core programming logic using JavaScript:
+- Variables, operators, conditionals, loops
+- Functions, arrays, objects
+- Algorithms, flowcharts, and desktop testing
+- Real-world scenarios (bank loans, grading, ticketing, inventory)
+
+### 03 — Object-Oriented Programming (OOP)
+Modeling software with classes and objects:
+- Classes, constructors, inheritance, polymorphism
+- Public, private (`#`), protected (`_`), and static methods
+- Encapsulation and business-rule enforcement
+- Real-world systems (hospital, airline, logistics, rentals)
+
+### 04 — Event-Driven Programming
+Interactive user interfaces with the DOM:
+- `addEventListener()`, click/input/keyboard events
+- Dynamic element creation and manipulation
+- Form validation and live counters
+- Interactive to-do lists, shopping carts, and registration forms
+
+### 05 — React.js
+Component-based frontend development:
+- Functional components, JSX, props
+- `useState`, `useEffect`, conditional rendering
+- List rendering with `.map()`, `.filter()`, `.reduce()`
+- Dashboards (movies, courses, tickets, projects, inventory)
+
+### 06 — Vue.js
+Reactive frontend development with Vue 3:
+- Composition API (`ref`, `computed`)
+- `v-model`, `v-for`, `v-if`, `v-else`, dynamic classes
+- Vue Router and Single Page Applications
+- Professional dashboards (employees, inventory, CRM, jobs, courses)
+
+### 07 — Bootstrap
+Rapid UI development with Bootstrap 5:
+- Grid system, cards, icons, utility classes
+- Responsive layouts for HTML, React, and Vue
+- Real-world landing pages (StreamPlus, FitLife, TravelHub, GreenMarket)
+
+### 08 — Tailwind CSS
+Utility-first CSS for modern interfaces:
+- Utility classes, responsive breakpoints
+- Modern component composition
+- Applied to HTML, React (TSX), and Vue (SFC) projects
+
+### 09 — Relational Databases
+Database design and SQL with PostgreSQL:
+- Normalization (1NF, 2NF, 3NF), ERD and relational diagrams
+- DDL, DML, filtering, sorting, joins, aggregation
+- Nested and correlated subqueries
+- Views, stored procedures, and triggers
+- Real-world systems (library, electronics store, hospital, airline)
+
+### 10 — NoSQL Databases
+Document databases with MongoDB:
+- MongoDB Shell and MongoDB Compass
+- CRUD operations (`insertMany`, `updateOne`, `deleteOne`, etc.)
+- Query operators (`$gt`, `$in`, `$or`, `$regex`, `$elemMatch`)
+- Projections, sorting, and limiting
+- Working with arrays and embedded documents
+- MongoDB Atlas sample databases (`sample_analytics`, `sample_mflix`)
+
+### 11 — API Development with Node.js
+Backend API development using **Node.js + Sequelize + PostgreSQL**:
+- Defining **Sequelize models** (`sequelize.define()`)
+- Mapping camelCase properties to snake_case database columns
+- Primary keys, foreign keys, unique and non-null constraints
+- PostgreSQL-specific types (`JSONB`, `NUMERIC`, `SMALLINT`, `DATE`)
+- Model-level validation (min/max, numeric precision)
+- **Database migrations** with Sequelize CLI (`.cjs`)
+- Reversible `up()` / `down()` migrations
+- Referential actions (`CASCADE`, `RESTRICT`) and migration ordering
+- Real-world schema modeling (hotel rooms, bookings, payments)
 
 ---
 
-## About Codecamp Academy
+## Module Progression
 
-**Codecamp Academy** is a practical, hands-on software development training
-program focused on preparing students for careers in the technology industry.
-
-The program emphasizes:
-
-- Real-world programming experience
-- Modern software development practices
-- Strong logical and analytical thinking
-- Collaborative development using Git and GitHub
-- Continuous practice through coding challenges and projects
-
-Throughout the program, students engage in structured coding exercises that
-simulate real industry workflows, helping them develop the skills required
-to become professional software engineers.
-
----
-
-## Learning Philosophy
-
-This module is designed with a **learn-by-building approach**, where students:
-
-- Solve real coding problems
-- Build progressively complex applications
-- Apply software engineering principles in practice
-- Learn both frontend structure and programming logic
-- Develop job-ready development skills
-
-By the end of this module, students will have a strong foundation in
-modern web development and programming fundamentals.
+The curriculum follows a deliberate learning path:
